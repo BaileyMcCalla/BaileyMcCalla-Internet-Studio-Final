@@ -1,0 +1,77 @@
+
+
+body {
+	margin: 0;
+	border: 0;
+	background-color: black;
+}
+
+h1 {
+	font-size: 3.815rem;
+	color: white;
+	.ancizar-sans-<uniquifier> 
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2 {
+	font-size: 1.052rem;
+	color: white;
+	.ancizar-sans-<uniquifier> 
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h3 {
+	font-size: 1.052rem;
+	color: white;
+	.ancizar-sans-<uniquifier> 
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+}
+
+p {
+	font-size: 1rem;
+	color: white;
+	.ancizar-sans-<uniquifier> 
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.gridContainer {
+	display: grid;
+	border: 4px deepskyblue solid;
+	border-radius: 5px;
+	width: cover;
+	height: cover;
+	grid-template-columns: repeat(6, 1fr);
+	align-content: center;
+	gap: .5%;
+	
+}
+
+.box {
+	color: black;
+	border-radius: 5px;
+	border: 4px black; solid;
+	text-align: center;
+}
+
+.box img {
+	max-width: 300px;
+	max-height: 800px;
+	width: auto;
+	height: auto;
+}
+
+
