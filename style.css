@@ -2,11 +2,12 @@
 
 body {
 	padding: 1rem;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1044%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1045%26quot%3b)'%3e%3c/rect%3e%3cpath d='M662.54 1089.95C945.74 962.08 981.75 76.06 1363.13 63.29 1744.52 50.52 1859.98 468.69 2063.73 484.49' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M459.7 1267.11C673.44 1267.1 862.9 1235.49 1313.76 1227.67 1764.62 1219.85 1916.17 709.69 2167.82 687.67' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1025.74 1208.29C1239.29 1109.49 1258.94 440.32 1550.49 426.96 1842.05 413.6 1927.92 689.2 2075.25 696.96' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M196.07 1184.35C461.04 1025.8 421.95 161.1 801.82 107.97 1181.68 54.84 1104.69 242.97 1407.56 242.97 1710.44 242.97 1858.16 108.78 2013.31 107.97' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M322.11 1112.28C602.34 1087.95 733.58 544.82 1273.96 512.34 1814.34 479.86 1964.68 90.29 2225.81 80.34' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1044'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='10.94%25' y1='119.44%25' x2='89.06%25' y2='-19.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(49%2c 119%2c 209%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"););
 }
 
 h1 {
 	font-size: 3.815rem;
-	color: black;
+	color: white;
 	.ancizar-sans-<uniquifier> 
   font-family: "Ancizar Sans", sans-serif;
   font-optical-sizing: auto;
@@ -16,7 +17,7 @@ h1 {
 
 h2 {
 	font-size: 1.052rem;
-	color: black;
+	color: white;
 	.ancizar-sans-<uniquifier> 
   font-family: "Ancizar Sans", sans-serif;
   font-optical-sizing: auto;
@@ -38,7 +39,7 @@ h3 {
 
 p {
 	font-size: 1rem;
-	color: black;
+	color: white;
 	.ancizar-sans-<uniquifier> 
   font-family: "Ancizar Sans", sans-serif;
   font-optical-sizing: auto;
@@ -48,8 +49,6 @@ p {
 
 .gridContainer {
 	display: grid;
-	border: 4px deepskyblue solid;
-	border-radius: 5px;
 	width: cover;
 	height: cover;
 	grid-template-columns: repeat(5, 1fr);
@@ -73,11 +72,12 @@ p {
 }
 
 .btn {
-	padding: 0.5rem 1rem;
-	border: 1px solid #ccc;
+	padding: 0.5rem .5rem;
+	border: 1px solid black;
 	border-radius: 3px;
 	cursor: pointer;
 	outline: none;
+	align-self: first baseline;
 }
 
 .btn:active {
@@ -92,13 +92,13 @@ p {
 	transform: translate(-50%, 20%);
 	border: 1px solid #ccc;
 	z-index: 2;
-	background-color: #fff;
+	background-color: black;
 	border-radius: 10px;
 	transition: top 0.5s ease-in-out;
 }
 
 .modal-btn{
-	background-color: transparent;
+	background-color: white;
 	border: none;
 	font-size: 1.5rem;
 }
