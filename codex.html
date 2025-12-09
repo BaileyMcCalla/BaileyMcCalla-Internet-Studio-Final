@@ -20,7 +20,7 @@
 		font-family: "Ancizar Sans", sans-serif;
 		font-size: 1rem;
 		align-self: center;
-		color: white;
+		
 	}
 
     .container {
@@ -30,7 +30,7 @@
     }
 
     .container div {
-    	background-color: black;
+    	
     	margin: 10px;
     	padding: 20px;
     	font-size: 30px;
@@ -55,26 +55,82 @@
 
 <h1>XIV Visual Codex</h1>
 <h2>Relavent Topics</h2>
-	<div class="container">
-		<div><p>Crystal</p><img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/12/the-mothercrystal.jpg" width="200" height="200"></div>
-		<div><p>Primals</p><img src="https://i.pinimg.com/236x/c0/78/ed/c078ed7cd6fff749657c31edc2fb6803.jpg" width="200" height="200"></div>
-		<div><p>The Garlean Empire</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/d/d3/Garlemald_Flag.jpg" width="200" height="200"></div>
-		<div><p>Eorzea</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/8/8b/Eorzea-map.jpg" width="200" height="200"></div>
-		<div><p>Seventh Umbral Calamity</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/9/9a/Bahamut_Emerges.png" width="200" height="200"></div>
-		<div><p>Battle of Silvertear Skies</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/8/82/FFXIV_Opening_Battle.jpg" width="200" height="200"></div>
+
+<div class="container">
+		<div><p>Crystal</p><button class="btn" data-target="#modal1"><img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/12/the-mothercrystal.jpg" width="200" height="200"></button></div>
+		<div><p>Primals</p><button class="btn" data-target="#modal2"><img src="https://i.pinimg.com/236x/c0/78/ed/c078ed7cd6fff749657c31edc2fb6803.jpg" width="200" height="200"></button></div>
+		<div><p>The Garlean Empire</p><button class="btn" data-target="#modal3"><img src="https://static.wikia.nocookie.net/finalfantasy/images/d/d3/Garlemald_Flag.jpg" width="200" height="200"></button></div>
+		<div><p>Eorzea</p><button class="btn" data-target="#modal4"><img src="https://static.wikia.nocookie.net/finalfantasy/images/8/8b/Eorzea-map.jpg" width="200" height="200"></button></div>
+		<div><p>Seventh Umbral Calamity</p><button class="btn" data-target="#modal5"><img src="https://static.wikia.nocookie.net/finalfantasy/images/9/9a/Bahamut_Emerges.png" width="200" height="200"></button></div>
+		<div><p>Battle of Silvertear Skies</p><button class="btn" data-target="#modal6"><img src="https://static.wikia.nocookie.net/finalfantasy/images/8/82/FFXIV_Opening_Battle.jpg" width="200" height="200"></button></div>
 	</div>
 
-<h2>Compiled Knowledge</h2>
+	<h2>Compiled Knowledge</h2>
 <div class="container">
-	<div><p>Persons of Interest</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/f/fb/XIV_Cover.jpg" width="200" height="200"></div>
-	<div><p>Lay of the Land</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/8/8b/Eorzea-map.jpg" width="200" height="200"></div>
-	<div><p>Mysteries of the Realm</p><img src="https://static.wikia.nocookie.net/finalfantasy/images/7/79/Final_Fantasy_XIV_ARR_crystal.jpg" width="200" height="200"></div>
-	<div><p>The Bestiary</p><img src="https://lds-img.finalfantasyxiv.com/promo/h/L/lHdwJFzTWXRousMUGfbj-6FFuw.png" width="200" height="200"></div>
-	<div><p>Races</p><img src="https://i.redd.it/y68om7gyke981.jpg" width="200" height="200"></div>
-	<div><p>Jobs</p><img src="https://www.gamepur.com/wp-content/uploads/2020/12/07165913/ffxiv-arr-jobs.jpg" width="200" height="200"></div>
+	<div><p>Persons of Interest</p><a href="poi.html"><img src="https://static.wikia.nocookie.net/finalfantasy/images/f/fb/XIV_Cover.jpg" width="200" height="200"></a></div>
+	<div><p>Lay of the Land</p><a href="lotl.html"><img src="https://static.wikia.nocookie.net/finalfantasy/images/8/8b/Eorzea-map.jpg" width="200" height="200"></a></div>
+	<div><p>Mysteries of the Realm</p><a href="motr.html"><img src="https://static.wikia.nocookie.net/finalfantasy/images/7/79/Final_Fantasy_XIV_ARR_crystal.jpg" width="200" height="200"></a></div>
+	<div><p>The Bestiary</p><a href="tb.html"><img src="https://lds-img.finalfantasyxiv.com/promo/h/L/lHdwJFzTWXRousMUGfbj-6FFuw.png" width="200" height="200"></a></div>
+	<div><p>Races</p><a href="races.html"><img src="https://i.redd.it/y68om7gyke981.jpg" width="200" height="200"></a></div>
+	<div><p>Jobs</p><a href="jobs.html"><img src="https://www.gamepur.com/wp-content/uploads/2020/12/07165913/ffxiv-arr-jobs.jpg" width="200" height="200"></a></div>
 </div>
 
-<h3><a href="index.html">Back</h3>
 
+
+
+
+
+
+<div class="modal" id="modal1">
+	<div class="header">
+		<div class="title">modal title</div>
+		<button class="btn modal-btn" data-target="#model1">&times;</button>
+	</div>
+	<div class="body">testing</div>
+</div>
+
+<div class="modal" id="modal2">
+	<div class="header">
+		<div class="title">modal title2</div>
+		<button class="btn modal-btn" data-target="#model2">&times;</button>
+	</div>
+	<div class="body">testing2</div>
+</div>
+
+<div class="modal" id="modal3">
+	<div class="header">
+		<div class="title">modal title3</div>
+		<button class="btn modal-btn" data-target="#model3">&times;</button>
+	</div>
+	<div class="body">testing3</div>
+</div>
+
+<div class="modal" id="modal4">
+	<div class="header">
+		<div class="title">modal title3</div>
+		<button class="btn modal-btn" data-target="#model4">&times;</button>
+	</div>
+	<div class="body">testing3</div>
+</div>
+
+<div class="modal" id="modal5">
+	<div class="header">
+		<div class="title">modal title3</div>
+		<button class="btn modal-btn" data-target="#model5">&times;</button>
+	</div>
+	<div class="body">testing3</div>
+</div>
+
+<div class="modal" id="modal6">
+	<div class="header">
+		<div class="title">modal title3</div>
+		<button class="btn modal-btn" data-target="#model6">&times;</button>
+	</div>
+	<div class="body">testing3</div>
+</div>
+
+<div id="overlay"></div>
+<script src="modal.js"></script>
+<h3><a href="index.html">Back</h3>
 </body>
 </html>
